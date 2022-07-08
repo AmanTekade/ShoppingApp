@@ -15,7 +15,7 @@ namespace Demo_Deligate
         }
         static void Main(string[] args)
         {
-            del1 d1 = new del1(print); // making instance of delegate
+        //    del1 d1 = new del1(print); // making instance of delegate
             d1.Invoke(); //invoking the method
             Console.ReadLine();
         }
