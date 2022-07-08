@@ -17,7 +17,7 @@ namespace Demo_Deligate
         {
             del1 d1 = new del1(print); // making instance of delegate
             d1.Invoke(); //invoking the method
-            Console.ReadLine();
+//             Console.ReadLine();
         }
     }
 }
